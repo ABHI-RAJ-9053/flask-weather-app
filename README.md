@@ -47,6 +47,23 @@ This was developed as a hands-on project to learn backend integration, API consu
 - Python 3.x
 - `pip` installed
 
+## 🗂️ Project Structure
+
+flask-weather-app/
+│
+├── static/
+│   └── styles.css          # Custom CSS styles (optional)
+│
+├── templates/
+│   ├── index.html          # Home page with city input
+│   └── weather.html        # Weather results display
+│
+├── app.py                  # Flask application
+├── requirements.txt        # Python dependencies
+├── Procfile                # For deployment on Render
+└── README.md               # Project documentation
+
+
 ### 💻 Local Setup
 
 ```bash
