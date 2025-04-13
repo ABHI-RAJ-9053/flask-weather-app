@@ -4,6 +4,14 @@ A simple and interactive web application built with **Flask** that displays real
 
 ---
 
+## 📖 Project Description
+
+This Flask Weather App allows users to fetch and view live weather updates for any city in the world. It connects to the OpenWeatherMap API and returns real-time data such as temperature, weather conditions, humidity, and wind speed. The app is built with a clean and modern UI using Bootstrap, and features a smooth scrolling ticker showing major cities across the globe. It’s designed to be simple, responsive, and beginner-friendly.
+
+This was developed as a hands-on project to learn backend integration, API consumption, and deployment practices.
+
+---
+
 ## 🚀 Features
 
 - 🌍 Search weather by city name
