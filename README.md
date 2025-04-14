@@ -69,6 +69,7 @@ git clone https://github.com/your-username/flask-weather-app.git
 cd flask-weather-app
 pip install -r requirements.txt
 python app.py
+---
 
 ### <b>Stay Updated and Join the Community </b>
 For more content on SQL, data analysis, and other data-related topics, make sure to follow me on social media and join our community:
