@@ -24,7 +24,7 @@ This was developed as a hands-on project to learn backend integration, API consu
 
 ## 🖥️ Preview
 
-![App Screenshot]()
+![App Screenshot : 1](https://github.com/ABHI-RAJ-9053/flask-weather-app/commit/967ce63336d99ecbeaf64eb169bd66dc00eab898)
 
 > ✅ Live Demo: [https://430c5613-d76e-48a8-9922-bb43670396a2-00-2ij5gez8vwiqe.sisko.replit.dev/)
 
