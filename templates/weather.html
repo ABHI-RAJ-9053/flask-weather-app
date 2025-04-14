@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Report</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Marquee styles */
+        .marquee-container {
+            background-color: #007bff;
+            color: white;
+            padding: 5px 0;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        /* Parallax Background */
+        .parallax {
+            background-image: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1470&q=80');
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            position: relative;
+            z-index: 0;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .weather-card {
+            background: rgba(255, 255, 255, 0.85);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+            max-width: 400px;
+            width: 100%;
+            color: #000;
+        }
+
+        .weather-icon {
+            width: 100px;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+            position: relative;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Marquee at Top -->
+<div class="marquee-container">
+    <marquee behavior="scroll" direction="left">
+        Delhi &nbsp; | &nbsp; Mumbai &nbsp; | &nbsp; Kolkata &nbsp; | &nbsp; Chennai &nbsp; | &nbsp; Bangalore &nbsp; | &nbsp;
+        Hyderabad &nbsp; | &nbsp; Patna &nbsp; | &nbsp; Jaipur &nbsp; | &nbsp; Pune &nbsp; | &nbsp; Ahmedabad &nbsp; | &nbsp;
+        Bhopal &nbsp; | &nbsp; Lucknow &nbsp; | &nbsp; Chandigarh &nbsp; | &nbsp; Guwahati &nbsp; | &nbsp; Ranchi &nbsp; | &nbsp;
+        Raipur &nbsp; | &nbsp; Dehradun &nbsp; | &nbsp; Nagpur &nbsp; | &nbsp; Srinagar &nbsp; | &nbsp; Surat
+    </marquee>
+</div>
+
+<!-- Parallax Section -->
+<div class="parallax">
+    <div class="overlay"></div>
+    <div class="content">
+        <div class="weather-card">
+            <h2>{{ weather.city }}</h2>
+            <img class="weather-icon" src="https://openweathermap.org/img/wn/{{ weather.icon }}@2x.png" alt="Weather Icon">
+            <h4 class="text-muted">{{ weather.description | title }}</h4>
+            <p><strong>Temperature:</strong> <span class="highlight">{{ weather.temperature }}°C</span></p>
+            <p><strong>Humidity:</strong> <span class="highlight">{{ weather.humidity }}%</span></p>
+            <p><strong>Wind Speed:</strong> <span class="highlight">{{ weather.wind_speed }} m/s</span></p>
+            <a href="/" class="btn btn-primary mt-3">Check Another City</a>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>Weather data from OpenWeatherMap </p>
+</footer>
+
+</body>
+</html>
