@@ -70,5 +70,3 @@ cd flask-weather-app
 pip install -r requirements.txt
 python app.py
 
-#Thank you for your support, and I look forward to connecting with you!
-
