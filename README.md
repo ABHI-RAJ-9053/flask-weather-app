@@ -70,14 +70,5 @@ cd flask-weather-app
 pip install -r requirements.txt
 python app.py
 
----
-
-## 🌐 Stay Connected
-
-```bash
-👤 LinkedIn : https://www.linkedin.com/in/nitesh-kumar-singh1
-🧠 Portfolio : https://www.datascienceportfol.io/niteshkr9053
-
-
-Thank you for your support, and I look forward to connecting with you!
+#Thank you for your support, and I look forward to connecting with you!
 
