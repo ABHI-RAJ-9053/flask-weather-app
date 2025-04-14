@@ -24,7 +24,7 @@ This was developed as a hands-on project to learn backend integration, API consu
 
 ## 🖥️ Preview
 
-![App Screenshot](https://your-screenshot-url-if-any)
+![App Screenshot]()
 
 > ✅ Live Demo: [https://430c5613-d76e-48a8-9922-bb43670396a2-00-2ij5gez8vwiqe.sisko.replit.dev/)
 
