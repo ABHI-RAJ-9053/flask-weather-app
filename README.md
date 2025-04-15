@@ -21,9 +21,10 @@ This was developed as a hands-on project to learn backend integration, API consu
 - 🔥 Deployed using Render (Free Hosting)
 
 ---
+![netflix_logo](https://github.com/ABHI-RAJ-9053/flask-weather-app/blob/main/preview_01.png)
 
 
-
+---
 
 ## 🛠️ Tech Stack
 
