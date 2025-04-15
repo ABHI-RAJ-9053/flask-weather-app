@@ -20,9 +20,14 @@ This was developed as a hands-on project to learn backend integration, API consu
 - 🏙️ Scrolling list of popular cities
 - 🔥 Deployed using Render (Free Hosting)
 
----
+--- 
+## 📸 Preview
+
 ![netflix_logo](https://github.com/ABHI-RAJ-9053/flask-weather-app/blob/main/preview_01.png)
 
+![netflix_logo](https://github.com/ABHI-RAJ-9053/flask-weather-app/blob/main/preview_02.png)
+
+![netflix_logo](https://github.com/ABHI-RAJ-9053/flask-weather-app/blob/main/preview_03.png)
 
 ---
 
